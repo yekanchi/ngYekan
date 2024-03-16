@@ -40,6 +40,8 @@ jobs:
           ng version;
           pwd;
           tree;
+          
+      - run: Remove-Item .\package-lock.json
       - run: npm install
       - name: ng build
         run: ng build --output-path ./gh-pages --base-href https://yekanchi.github.com/ngYekan/
