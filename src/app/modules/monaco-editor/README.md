@@ -2,7 +2,8 @@
 
 ### using it with angular build tools:
 
-- add this to your `angular.json` file `assets` option:
+- first install monaco-editor `npm install --save-dev  monaco-editor@0.47.0`
+- then add this to your `angular.json` file `assets` option:
 
 ``` json
     {
@@ -13,3 +14,5 @@
 ```
 
 ### using it with angular build tools:
+
+- use: `baseUrl: 'http://www.unpkg.com/monaco-editor@0.47.0'` for `NgxMonacoEditorConfig` at module
