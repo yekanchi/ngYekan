@@ -3,19 +3,12 @@ import {Component} from '@angular/core';
 @Component({
 	selector: 'bpa-root',
 	template: `
-      <h1>Welcome to {{ title }}!</h1>
-
-      <ngx-monaco-editor value="SELECT * FROM users where id ={userId} " language="sql" [fontSize]="16"/>
-      <ngx-monaco-editor [value]="jsonCode" language="json" baseTheme="vs" theme="vs-bpa" [fontSize]="16"/>
+      <h1>Welcome to Angular 17.3.1</h1>
+      <test-code-editor></test-code-editor>
+      <test-date-picker></test-date-picker>
 	`,
 	styles: []
 })
 export class AppComponent {
-	title = 'ngYekan';
-	jsonCode = `
-{
-	"user_id": 5,
-	"user_name": "January"
-}
-	`
+
 }

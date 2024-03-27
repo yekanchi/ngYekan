@@ -24,7 +24,8 @@ export class MonacoService {
 		} else {
 			this.hasLoadedMonaco = true;
 			this.monacoLoadPromise = new Promise<void>((resolve: any) => {
-				const baseUrl = this.config.baseUrl || "./assets";
+				// const baseUrl = this.config.baseUrl || "./assets/monaco";
+				const baseUrl = this.config.baseUrl;
 				if (typeof ((<any>window).monaco) === 'object') {
 					this.onMonacoReady();
 					resolve();
@@ -32,7 +33,7 @@ export class MonacoService {
 				}
 				const onGotAmdLoader: any = (require?: any) => {
 					let usedRequire = require || (<any>window).require;
-					let requireConfig = {paths: {vs: `${baseUrl}/monaco/min/vs`}};
+					let requireConfig = {paths: {vs: `${baseUrl}/min/vs`}};
 					Object.assign(requireConfig, this.config.requireConfig || {});
 					// Load monaco
 					usedRequire.config(requireConfig);
@@ -51,7 +52,7 @@ export class MonacoService {
 				} else if (!(<any>window).require) {
 					const loaderScript: HTMLScriptElement = document.createElement('script');
 					loaderScript.type = 'text/javascript';
-					loaderScript.src = `${baseUrl}/monaco/min/vs/loader.js`;
+					loaderScript.src = `${baseUrl}/min/vs/loader.js`;
 					loaderScript.addEventListener('load', () => {
 						onGotAmdLoader();
 					});

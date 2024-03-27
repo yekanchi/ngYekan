@@ -40,7 +40,7 @@ export class SqlEditorInstanceService implements EditorInstanceService {
 			tokens: [
 				{
 					label: '{processInstanceId}',
-					detail: 'تست',
+					detail: 'تست یک',
 					insertText: 'processInstanceId}',
 					documentation: '{processInstanceId}',
 				}
