@@ -13,17 +13,19 @@ import {
 	ViewChild
 } from '@angular/core';
 import {fromEvent, Subscription} from 'rxjs';
-import {EditorOptions, NGX_MONACO_EDITOR_CONFIG} from './types';
+import {
+	BuiltinTheme,
+	EditorOptions,
+	IStandaloneCodeEditor,
+	IStandaloneEditorConstructionOptions
+} from './type/monaco-types';
 import {BpasControlBaseComponent} from "./bpas-control-base.component";
-import * as IMonaco from 'monaco-editor'
 import {MonacoService} from "./monaco.service";
 import {EditorInstanceService} from "./services/editor-instance.service";
 import {NG_VALUE_ACCESSOR} from "@angular/forms";
 import {SqlEditorInstanceService} from "./services/sql-editor-instance.service";
 import {DefaultEditorInstanceService} from "./services/default-editor-instance.service";
-import IStandaloneCodeEditor = IMonaco.editor.IStandaloneCodeEditor;
-import IStandaloneEditorConstructionOptions = IMonaco.editor.IStandaloneEditorConstructionOptions;
-import BuiltinTheme = IMonaco.editor.BuiltinTheme;
+import {NGX_MONACO_EDITOR_CONFIG} from "./type/NGX_MONACO_EDITOR_CONFIG";
 
 @Component({
 	selector: 'ngx-monaco-editor',

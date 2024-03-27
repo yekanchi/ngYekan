@@ -1,5 +1,6 @@
 import {EventEmitter, inject} from '@angular/core';
-import {IMonaco, NGX_MONACO_EDITOR_CONFIG} from "./types";
+import {IMonaco} from "./type/monaco-types";
+import {NGX_MONACO_EDITOR_CONFIG} from "./type/NGX_MONACO_EDITOR_CONFIG";
 
 declare var monaco: IMonaco;
 

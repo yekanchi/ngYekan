@@ -1,6 +1,5 @@
 import {MonacoService} from "../monaco.service";
 import {
-	BpaAutoCompleteConfig,
 	CancellationToken,
 	CompletionContext,
 	CompletionItem,
@@ -11,9 +10,10 @@ import {
 	ITextModel,
 	Position,
 	ProviderResult
-} from "../types";
+} from "../type/monaco-types";
 import {EditorComponent} from "../editor.component";
 import {EditorInstanceService} from "./editor-instance.service";
+import {BpaAutoCompleteConfig} from "../type/bpaAutoCompleteConfig";
 
 
 export class SqlEditorInstanceService implements EditorInstanceService {
