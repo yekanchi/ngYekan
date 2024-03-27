@@ -95,7 +95,6 @@ export class SqlEditorInstanceService implements EditorInstanceService {
 				// 	endLineNumber: pos.lineNumber,
 				// 	endColumn: pos.column
 				// });
-
 				sqlAutoCompleteItems.length = 0;
 				ac.tokens.forEach(token => {
 					const kind = CompletionItemKind.Variable;
