@@ -45,7 +45,7 @@ export function onMonacoLoad() {
 
 const monacoConfig: NgxMonacoEditorConfig = {
 	// baseUrl: 'assets/monaco',
-	baseUrl: 'http://www.unpkg.com/monaco-editor@0.47.0',
+	baseUrl: 'https://www.unpkg.com/monaco-editor@0.47.0',
 	defaultOptions: {
 		scrollBeyondLastLine: false,
 		theme: "vs-dark"
