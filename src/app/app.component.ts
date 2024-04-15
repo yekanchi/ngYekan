@@ -1,4 +1,5 @@
-import {Component} from '@angular/core';
+import {Component, ViewChild} from '@angular/core';
+import {TestCodeEditorComponent} from "./components/test-code-editor.component";
 
 @Component({
 	selector: 'bpa-root',
@@ -10,5 +11,6 @@ import {Component} from '@angular/core';
 	styles: []
 })
 export class AppComponent {
-
+	@ViewChild(TestCodeEditorComponent) testCodeEditor?: TestCodeEditorComponent;
+	constructor() {}
 }
