@@ -5,10 +5,10 @@
 
 html {
   @include mat.core();
-  $theme: matx.define-theme((
+  $theme: mat.define-theme((
           color: (
                   theme-type: light,
-                  primary: matx.$m3-yellow-palette
+                  primary: mat.$yellow-palette
           ),
           typography: (
                   brand-family: 'Comic Sans',
