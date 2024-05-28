@@ -4,7 +4,7 @@ import {TestCodeEditorComponent} from "./components/test-code-editor.component";
 @Component({
 	selector: "bpa-root",
 	template: `
-      <h1>Welcome to Angular 17.3.1</h1>
+      <h1>Welcome to Angular 18.0</h1>
       <test-code-editor></test-code-editor>
       <test-date-picker></test-date-picker>
 
