@@ -24,7 +24,6 @@ import {MatInputModule} from "@angular/material/input";
 		BrowserModule,
 		AppRoutingModule,
 		FormsModule,
-		MonacoEditorModule.forRoot(),
 		MatFormField,
 		MatLabel,
 		MatDatepickerInput,
@@ -37,7 +36,8 @@ import {MatInputModule} from "@angular/material/input";
 		MatDatepickerModule,
 		BrowserAnimationsModule,
 		MatInputModule,
-		MatCardContent
+		MatCardContent,
+		MonacoEditorModule.forRoot(),
 	],
 	providers: [],
 	bootstrap: [AppComponent]
