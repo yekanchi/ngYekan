@@ -418,7 +418,7 @@ export class MomentJalaliDateAdapter extends DateAdapter<moment.Moment> {
 		} else {
 			result = momentJalaali();
 		}
-
+		
 		return result
 			.jYear(year)
 			.jMonth(month)

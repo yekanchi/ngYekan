@@ -107,7 +107,6 @@ export class EditorComponent extends BpasControlBaseComponent<string> implements
 		this.monacoService.loadMonacoEditor()
 	}
 
-
 	protected initMonaco(options: any): void {
 		this.editorService.setDefaults(this);
 		this.setEditorModel(options);
