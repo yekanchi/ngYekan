@@ -33,5 +33,6 @@ export class TestDatePickerComponent {
 	constructor(private _adapter: DateAdapter<any>, @Inject(MAT_DATE_LOCALE) public _locale: any) {
 		this._locale = "fa-IR";
 		this._adapter.setLocale(this._locale);
+
 	}
 }

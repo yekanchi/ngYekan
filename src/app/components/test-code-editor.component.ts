@@ -8,7 +8,7 @@ import {Component} from '@angular/core';
       @if (true) {
 
       }
-			
+
 	`,
 	styles: ``
 })
@@ -16,9 +16,7 @@ export class TestCodeEditorComponent {
 	title = 'ng_demo';
 	jsonCode = `
 {
-	"user_id": 5,
-	"user_name": "January"
-}
+	"user_id": 5,"user_name": "January"}
 	`
 }
 
