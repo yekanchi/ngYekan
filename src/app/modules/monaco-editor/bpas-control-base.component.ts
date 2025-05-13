@@ -1,7 +1,7 @@
 import {AfterViewInit, Component, EventEmitter, Input, Output} from '@angular/core';
 import {AbstractControl, ControlValueAccessor, ValidationErrors, Validator} from '@angular/forms';
 
-@Component({selector: 'bpas-control-base', template: ``})
+@Component({selector: 'bpas-control-base', template: ``, standalone: false})
 // ControlValueAccessor: این اینترفیس برای ایجاد یک کنترل با قابلیت دریافت یک مقدار از نوع دلخواه و برگرداندن آن پیاده‌سازی می شود.
 // Validator: این اینترفیس برای داشتن قابلیت
 export class BpasControlBaseComponent<T> implements ControlValueAccessor, Validator, AfterViewInit {

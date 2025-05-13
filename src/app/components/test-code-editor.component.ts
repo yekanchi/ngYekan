@@ -1,6 +1,7 @@
 import {Component} from '@angular/core';
 
 @Component({
+	standalone: false,
 	selector: 'test-code-editor',
 	template: `
       <ngx-monaco-editor value="SELECT * FROM users where id ={userId} " language="sql" [fontSize]="16"/>

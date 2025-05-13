@@ -4,6 +4,7 @@ import {JALAALI_DATE_PROVIDERS} from "../modules/mat-moment-date-module/mat-jala
 import {DateAdapter, MAT_DATE_LOCALE} from "@angular/material/core";
 
 @Component({
+	standalone: false,
 	selector: "test-date-picker",
 	providers: [JALAALI_DATE_PROVIDERS],
 	styles: ``,

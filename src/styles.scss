@@ -17,4 +17,8 @@ html {
           density: (scale: -4)
   ));
   @include mat.all-component-themes($theme);
+
+  .test-component {
+    margin: 10px;
+  }
 }

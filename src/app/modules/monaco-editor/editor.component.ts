@@ -28,6 +28,7 @@ import {DefaultEditorInstanceService} from "./services/default-editor-instance.s
 import {NGX_MONACO_EDITOR_CONFIG} from "./type/NGX_MONACO_EDITOR_CONFIG";
 
 @Component({
+	standalone: false,
 	selector: 'ngx-monaco-editor',
 	styles: [`
     :host {
