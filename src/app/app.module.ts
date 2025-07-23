@@ -24,6 +24,7 @@ import {TestGridListComponent} from './components/test-grid-list.component';
 import {MatGridList, MatGridTile} from "@angular/material/grid-list";
 import {CdkDrag} from "@angular/cdk/drag-drop";
 import {TestBaseComponent} from "./components/test-base.component";
+import {TestDiagramComponent} from "./components/ejs/test-diagram.component";
 
 @NgModule({
 	declarations: [AppComponent, TestCodeEditorComponent, TestDatePickerComponent, TestDividerComponent, TestGridListComponent],
@@ -52,6 +53,7 @@ import {TestBaseComponent} from "./components/test-base.component";
 		MatGridList,
 		CdkDrag,
 		TestBaseComponent,
+		TestDiagramComponent,
 	],
 	providers: [],
 	bootstrap: [AppComponent]

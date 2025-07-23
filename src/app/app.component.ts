@@ -4,6 +4,7 @@ import {TestCodeEditorComponent} from "./components/test-code-editor.component";
 @Component({
 	selector: "bpa-root",
 	standalone: false,
+	styles: [`  `],
 	template: `
 
 
@@ -18,7 +19,7 @@ import {TestCodeEditorComponent} from "./components/test-code-editor.component";
           y = x + 253;
           z= x + 1;
       }
-      <h3>Angular v.{{ version.full }}</h3>
+      <h3>Angular22 v.{{ version.full }}</h3>
       <h3>Current Angular Version: v.{{ version.full }}</h3>
       <!--      <test-code-editor/>-->
       <!--      <test-date-picker/>-->
@@ -26,8 +27,10 @@ import {TestCodeEditorComponent} from "./components/test-code-editor.component";
       <!--      <test-grid-list/>-->
       <!--      <test-divider/>-->
       <test-base></test-base>
+
+      <bpa-test-diagram></bpa-test-diagram>
 	`,
-	styles: [],
+
 })
 export class AppComponent {
 	@ViewChild(TestCodeEditorComponent) testCodeEditor?: TestCodeEditorComponent;

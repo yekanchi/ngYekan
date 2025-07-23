@@ -1,12 +1,12 @@
 #!groovy
 pipeline {
-  agent {
-    node {
-      label 'swarm-ci'
+	agent {
+		node {
+			label 'swarm-ci'
     }
   }
   environment {
-    TEST_PREFIX = 'test-IMAGE'
+		TEST_PREFIX = 'test-IMAGE'
     TEST_IMAGE = "${env.TEST_PREFIX}:${env.BUILD_NUMBER}"
     TEST_CONTAINER = "${env.TEST_PREFIX}-${env.BUILD_NUMBER}"
     REGISTRY_ADDRESS = 'my.registry.address.com'
@@ -21,31 +21,31 @@ pipeline {
     STACK_PREFIX = 'my-project-stack-name'
   }
   stages {
-    stage('Prepare') {
-      steps {
-        bitbucketStatusNotify buildState: 'INPROGRESS'
+		stage('Prepare') {
+			steps {
+				bitbucketStatusNotify buildState: 'INPROGRESS'
       }
       def info = script {
 
-      }
+			}
     }
     stage('Build and start test image') {
-      steps {
-        sh 'docker-composer build'
+			steps {
+				sh 'docker-composer build'
         sh 'docker-compose up -d'
         waitUntilServicesReady
       }
     }
 
     stage('Run tests') {
-      steps {
-        sh 'docker-compose exec -T php-fpm composer --no-ansi --no-interaction tests-ci'
+			steps {
+				sh 'docker-compose exec -T php-fpm composer --no-ansi --no-interaction tests-ci'
         sh 'docker-compose exec -T php-fpm composer --no-ansi --no-interaction behat-ci'
       }
 
       post {
-        always {
-          junit 'build/junit/*.xml'
+				always {
+					junit 'build/junit/*.xml'
           step([
                   $class              : 'CloverPublisher',
                   cloverReportDir     : 'build/coverage',
@@ -56,13 +56,13 @@ pipeline {
     }
 
     stage('Determine new version') {
-      when {
-        branch 'master'
+			when {
+				branch 'master'
       }
 
       steps {
-        script {
-          env.DEPLOY_VERSION = sh(returnStdout: true, script: "docker run --rm -v '${env.WORKSPACE}':/repo:ro softonic/ci-version:0.1.0 --compatible-with package.json").trim()
+				script {
+					env.DEPLOY_VERSION = sh(returnStdout: true, script: "docker run --rm -v '${env.WORKSPACE}':/repo:ro softonic/ci-version:0.1.0 --compatible-with package.json").trim()
           env.DEPLOY_MAJOR_VERSION = sh(returnStdout: true, script: "echo '${env.DEPLOY_VERSION}' | awk -F'[ .]' '{print \$1}'").trim()
           env.DEPLOY_COMMIT_HASH = sh(returnStdout: true, script: 'git rev-parse HEAD | cut -c1-7').trim()
           env.DEPLOY_BUILD_DATE = sh(returnStdout: true, script: "date -u +'%Y-%m-%dT%H:%M:%SZ'").trim()
@@ -74,15 +74,15 @@ pipeline {
     }
 
     stage('Create new version') {
-      when {
-        branch 'master'
+			when {
+				branch 'master'
         environment name: 'IS_NEW_VERSION', value: 'YES'
       }
 
       steps {
-        script {
-          sshagent(['ci-ssh']) {
-            sh """
+				script {
+					sshagent(['ci-ssh']) {
+						sh """
                             git config user.email "ci-user@email.com"
                             git config user.name "Jenkins"
                             git tag -a "v${env.DEPLOY_VERSION}" \
@@ -102,21 +102,21 @@ pipeline {
     }
 
     stage('Deploy to production') {
-      agent { node { label 'swarm-prod' } }
+			agent { node { label 'swarm-prod' } }
 
       when {
-        branch 'master'
+				branch 'master'
         environment name: 'IS_NEW_VERSION', value: 'YES'
       }
 
       steps {
-        sh "docker login -u=$REGISTRY_AUTH_USR -p=$REGISTRY_AUTH_PSW ${env.REGISTRY_ADDRESS}"
+				sh "docker login -u=$REGISTRY_AUTH_USR -p=$REGISTRY_AUTH_PSW ${env.REGISTRY_ADDRESS}"
         sh "docker stack deploy ${env.DEPLOY_STACK_NAME} -c ${env.COMPOSE_FILE} --with-registry-auth"
       }
 
       post {
-        success {
-          slackSend(
+				success {
+					slackSend(
                   teamDomain: "${env.SLACK_TEAM_DOMAIN}",
                   token: "${env.SLACK_TOKEN}",
                   channel: "${env.SLACK_CHANNEL}",
@@ -126,7 +126,7 @@ pipeline {
         }
 
         failure {
-          slackSend(
+					slackSend(
                   teamDomain: "${env.SLACK_TEAM_DOMAIN}",
                   token: "${env.SLACK_TOKEN}",
                   channel: "${env.SLACK_CHANNEL}",
@@ -139,16 +139,16 @@ pipeline {
   }
 
   post {
-    always {
-      sh 'docker-compose down || true'
+		always {
+			sh 'docker-compose down || true'
     }
 
     success {
-      bitbucketStatusNotify buildState: 'SUCCESSFUL'
+			bitbucketStatusNotify buildState: 'SUCCESSFUL'
     }
 
     failure {
-      bitbucketStatusNotify buildState: 'FAILED'
+			bitbucketStatusNotify buildState: 'FAILED'
     }
   }
 }
