@@ -27,7 +27,9 @@ import {TestCodeEditorComponent} from "./components/test-code-editor.component";
       <!--      <test-grid-list/>-->
       <!--      <test-divider/>-->
       <test-base></test-base>
-
+      @if (true) {
+		
+      }
       <bpa-test-diagram></bpa-test-diagram>
 	`,
 
