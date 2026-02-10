@@ -1,0 +1,1263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="910c2b09-2e58-4d6f-a10c-1e6669a51dc3" name="Changes" comment="Fixed the encoding to UTF-8 in `src/main.ts`, added a log statement.">
+      <change beforePath="$PROJECT_DIR$/.github/main.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/gh-pages.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vscode/extensions.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vscode/launch.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vscode/tasks.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jenkinsfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app-routing.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/ejs/test-diagram.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/test-base.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/test-code-editor.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/test-date-picker.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/test-divider.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/test-grid-list.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/modules/mat-moment-date-module/dynamic-moment-date-formats.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/modules/mat-moment-date-module/mat-jalaali-moment-date.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/modules/mat-moment-date-module/moment-jalali-date-adapter.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/modules/mat-moment-date-module/numnber-helper.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/modules/monaco-editor/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/modules/monaco-editor/bpas-control-base.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/modules/monaco-editor/editor.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/modules/monaco-editor/monaco.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/modules/monaco-editor/monacoEditor.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/modules/monaco-editor/services/default-editor-instance.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/modules/monaco-editor/services/editor-instance.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/modules/monaco-editor/services/sql-editor-instance.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/modules/monaco-editor/type/NGX_MONACO_EDITOR_CONFIG.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/modules/monaco-editor/type/bpaAutoCompleteConfig.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/modules/monaco-editor/type/bpaAutoCompleteToken.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/modules/monaco-editor/type/monaco-types.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/modules/monaco-editor/type/ngxMonacoEditorConfig.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.app.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DarkyenusTimeTracker">
+    <option name="totalTimeSeconds" value="207844" />
+    <option name="gitIntegration" value="true" />
+    <option name="naggedAbout" value="1" />
+  </component>
+  <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="148" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="WARN_ABOUT_CRLF" value="false" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;yekanchi&quot;
+  }
+}</component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1740839873" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
+  </component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/yekanchi/ngYekan.git&quot;,
+    &quot;accountId&quot;: &quot;6a1546a1-3c4c-4c50-80c9-7d45f0b341f3&quot;
+  }
+}</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Jenkinsfile" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="Jenkins.Settings">
+    <option name="jenkinsUrl" value="http://localhost:8005" />
+    <option name="username" value="Admin" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="NamedScopeManager">
+    <order>
+      <scope name="MonacoModule" />
+    </order>
+  </component>
+  <component name="OptimizeOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="AISelfReview" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2dfkJuAyJ9lStWAexGd3iOupKNc" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Attach to Node.js/Chrome.Attach Embedded.executor": "Debug",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "JavaScript Debug.localhost:4200.executor": "Debug",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultAutoModeForALLUsers.v1": "true",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "dev.nx.console.last_ai_configure_notification_timestamp": "1766673238466",
+    "git-widget-placeholder": "main",
+    "javascript.nodejs.core.library.configured.version": "20.19.2",
+    "javascript.nodejs.core.library.typings.version": "20.19.27",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/Source/ngYekan/src/app/components",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_interpreter_path": "node",
+    "nodejs_package_manager_path": "npm",
+    "npm.Start.executor": "Debug",
+    "npm.serve.executor": "Run",
+    "nx.console.mcp.server.install.notification.hide": "true",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.splitter.proportion": "0.15337838",
+    "show.migrate.to.gradle.popup": "false",
+    "to.speed.mode.migration.done": "true",
+    "ts.external.directory.path": "D:\\Source\\ngYekan\\ngYek\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Source\ngYekan\src\app\components" />
+      <recent name="D:\Source\ngYekan" />
+      <recent name="D:\Source\ngYekan\.github\workflows" />
+      <recent name="D:\Source\ngYekan\ngYekan\src\app\lib\services" />
+      <recent name="D:\Source\ngYekan\ngYekan\src\app\lib" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Source\ngYekan\src\app\modules\monaco-editor\type" />
+      <recent name="D:\Source\ngYekan\src\app\modules\mat-moment-date-module" />
+      <recent name="D:\Source\ngYekan\src\app\modules\mat-jalaali-moment-date-module" />
+      <recent name="D:\Source\ngYekan\src\app\modules\monaco-editor" />
+      <recent name="D:\Source\ngYekan\.github" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="dsds" />
+      <command value="dir" />
+      <command value="cmd" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Compound.Start  &amp; Attach Embedded">
+    <configuration name="localhost:4200" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:4200/">
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Attach to Node.js/Chrome.Attach Embedded" />
+      <item itemvalue="Compound.Start  &amp; Attach Embedded" />
+      <item itemvalue="JavaScript Debug.localhost:4200" />
+      <item itemvalue="npm.Start" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.localhost:4200" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-c7e53b3be11b-JavaScript-WS-253.28294.332" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="910c2b09-2e58-4d6f-a10c-1e6669a51dc3" name="Changes" comment="" />
+      <created>1710406451508</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1710406451508</updated>
+      <workItem from="1710406452642" duration="9566000" />
+      <workItem from="1710418400054" duration="11178000" />
+      <workItem from="1710491206556" duration="141000" />
+      <workItem from="1710491372388" duration="14922000" />
+      <workItem from="1710513484258" duration="678000" />
+      <workItem from="1710521294833" duration="1271000" />
+      <workItem from="1710522853635" duration="153000" />
+      <workItem from="1710523035205" duration="75000" />
+      <workItem from="1710587203656" duration="1395000" />
+      <workItem from="1710588871965" duration="2390000" />
+      <workItem from="1711256477188" duration="1534000" />
+      <workItem from="1711258807191" duration="4388000" />
+      <workItem from="1711366257570" duration="2433000" />
+      <workItem from="1711371483656" duration="3011000" />
+      <workItem from="1711459045107" duration="12527000" />
+      <workItem from="1711544129824" duration="18430000" />
+      <workItem from="1711641602823" duration="600000" />
+      <workItem from="1712037068137" duration="97000" />
+      <workItem from="1712037188454" duration="9170000" />
+      <workItem from="1712146638429" duration="3037000" />
+      <workItem from="1712230439859" duration="484000" />
+      <workItem from="1712230967484" duration="446000" />
+      <workItem from="1712231434639" duration="1342000" />
+      <workItem from="1712235285892" duration="3430000" />
+      <workItem from="1712398653256" duration="109000" />
+      <workItem from="1712398773615" duration="12061000" />
+      <workItem from="1712471662842" duration="3417000" />
+      <workItem from="1712591774606" duration="7047000" />
+      <workItem from="1712648447197" duration="87000" />
+      <workItem from="1712990062233" duration="858000" />
+      <workItem from="1713001260652" duration="637000" />
+      <workItem from="1713003126918" duration="7284000" />
+      <workItem from="1713012677556" duration="21994000" />
+      <workItem from="1713167706607" duration="1776000" />
+      <workItem from="1713170459690" duration="12000000" />
+      <workItem from="1713266324435" duration="3050000" />
+      <workItem from="1713270239589" duration="103000" />
+      <workItem from="1713270370808" duration="46000" />
+      <workItem from="1713270562606" duration="329000" />
+      <workItem from="1713270914768" duration="4095000" />
+      <workItem from="1713293022195" duration="98000" />
+      <workItem from="1713293139949" duration="89000" />
+      <workItem from="1713293249653" duration="2188000" />
+      <workItem from="1713336986374" duration="272000" />
+      <workItem from="1713337400242" duration="168000" />
+      <workItem from="1713439848461" duration="23000" />
+      <workItem from="1713608701354" duration="408000" />
+      <workItem from="1713781004938" duration="2781000" />
+      <workItem from="1713785529069" duration="4437000" />
+      <workItem from="1713885536388" duration="3921000" />
+      <workItem from="1713954983609" duration="77000" />
+      <workItem from="1713955078115" duration="4588000" />
+      <workItem from="1714061932615" duration="1317000" />
+      <workItem from="1714288691089" duration="157000" />
+      <workItem from="1714288859479" duration="135000" />
+      <workItem from="1714289005485" duration="32000" />
+      <workItem from="1714289048011" duration="17501000" />
+      <workItem from="1714474029680" duration="5710000" />
+      <workItem from="1714556379678" duration="120000" />
+      <workItem from="1714556513275" duration="2366000" />
+      <workItem from="1714574962289" duration="107000" />
+      <workItem from="1714575087049" duration="108000" />
+      <workItem from="1715266239993" duration="6708000" />
+      <workItem from="1715274402935" duration="570000" />
+      <workItem from="1715401312905" duration="636000" />
+      <workItem from="1715407677281" duration="118000" />
+      <workItem from="1715407815417" duration="7663000" />
+      <workItem from="1715498657388" duration="21672000" />
+      <workItem from="1716000575524" duration="3315000" />
+      <workItem from="1716114555208" duration="7243000" />
+      <workItem from="1716375179809" duration="86000" />
+      <workItem from="1716375280289" duration="13432000" />
+      <workItem from="1716607372622" duration="1829000" />
+      <workItem from="1716634710164" duration="1845000" />
+      <workItem from="1716818519990" duration="755000" />
+      <workItem from="1716819792005" duration="27000" />
+      <workItem from="1716819828020" duration="88000" />
+      <workItem from="1716819968470" duration="8139000" />
+      <workItem from="1716877158958" duration="12903000" />
+      <workItem from="1717078829152" duration="161000" />
+      <workItem from="1717079027761" duration="143000" />
+      <workItem from="1717079195535" duration="14907000" />
+      <workItem from="1717224508567" duration="652000" />
+      <workItem from="1717228887131" duration="13338000" />
+      <workItem from="1717815233682" duration="612000" />
+      <workItem from="1717815858398" duration="15608000" />
+      <workItem from="1718033602419" duration="8700000" />
+      <workItem from="1718267726688" duration="9989000" />
+      <workItem from="1718534787277" duration="10644000" />
+      <workItem from="1718868590788" duration="156000" />
+      <workItem from="1718868763096" duration="7009000" />
+      <workItem from="1719069453725" duration="13874000" />
+      <workItem from="1719204485935" duration="13322000" />
+      <workItem from="1719399006405" duration="13358000" />
+      <workItem from="1719481672966" duration="3091000" />
+      <workItem from="1719490016447" duration="13402000" />
+      <workItem from="1719768392672" duration="180000" />
+      <workItem from="1719768583512" duration="6086000" />
+      <workItem from="1719846974269" duration="866000" />
+      <workItem from="1719908902519" duration="15000" />
+      <workItem from="1719908969477" duration="21000" />
+      <workItem from="1719914096760" duration="852000" />
+      <workItem from="1719917346041" duration="115000" />
+      <workItem from="1719917513654" duration="488000" />
+      <workItem from="1720012183587" duration="15000" />
+      <workItem from="1720012243591" duration="2990000" />
+      <workItem from="1720018569527" duration="102000" />
+      <workItem from="1720018723269" duration="137000" />
+      <workItem from="1720018877636" duration="1542000" />
+      <workItem from="1720020769637" duration="4074000" />
+      <workItem from="1720026244959" duration="794000" />
+      <workItem from="1720251430016" duration="19740000" />
+      <workItem from="1720430371776" duration="116000" />
+      <workItem from="1720430523373" duration="2409000" />
+      <workItem from="1720446927679" duration="1545000" />
+      <workItem from="1720595723278" duration="16284000" />
+      <workItem from="1720629431715" duration="5510000" />
+      <workItem from="1720695323368" duration="3419000" />
+      <workItem from="1720847651034" duration="461000" />
+      <workItem from="1720848129428" duration="13000" />
+      <workItem from="1720848159309" duration="127000" />
+      <workItem from="1720848301619" duration="7205000" />
+      <workItem from="1720874138070" duration="2912000" />
+      <workItem from="1721475916307" duration="4659000" />
+      <workItem from="1721538234249" duration="27348000" />
+      <workItem from="1721804264984" duration="1435000" />
+      <workItem from="1721805734707" duration="1302000" />
+      <workItem from="1721807072026" duration="23000" />
+      <workItem from="1721807274714" duration="523000" />
+      <workItem from="1721807814460" duration="863000" />
+      <workItem from="1721808870907" duration="2307000" />
+      <workItem from="1721823905419" duration="3764000" />
+      <workItem from="1721834288954" duration="4598000" />
+      <workItem from="1721912976494" duration="36000" />
+      <workItem from="1721913027385" duration="4823000" />
+      <workItem from="1722051826943" duration="724000" />
+      <workItem from="1722052872103" duration="3766000" />
+      <workItem from="1722183257420" duration="98000" />
+      <workItem from="1722183366022" duration="35000" />
+      <workItem from="1722183415514" duration="3621000" />
+      <workItem from="1722227193907" duration="972000" />
+      <workItem from="1722244668425" duration="1323000" />
+      <workItem from="1722365738388" duration="4760000" />
+      <workItem from="1722500337205" duration="442000" />
+      <workItem from="1722500800552" duration="2665000" />
+      <workItem from="1723017768611" duration="217000" />
+      <workItem from="1723029680867" duration="445000" />
+      <workItem from="1723030152105" duration="685000" />
+      <workItem from="1723031723448" duration="430000" />
+      <workItem from="1723032176705" duration="360000" />
+      <workItem from="1723032554408" duration="512000" />
+      <workItem from="1723033086164" duration="68000" />
+      <workItem from="1723048767316" duration="2352000" />
+      <workItem from="1723106098927" duration="6331000" />
+      <workItem from="1723273705691" duration="377000" />
+      <workItem from="1723351345858" duration="6645000" />
+      <workItem from="1723459485450" duration="1445000" />
+      <workItem from="1723471447103" duration="324000" />
+      <workItem from="1723538589539" duration="151000" />
+      <workItem from="1723538836831" duration="518000" />
+      <workItem from="1723539404760" duration="25023000" />
+      <workItem from="1723723745230" duration="817000" />
+      <workItem from="1723724776649" duration="664000" />
+      <workItem from="1723891450398" duration="4442000" />
+      <workItem from="1723909638173" duration="3989000" />
+      <workItem from="1723917655455" duration="591000" />
+      <workItem from="1724175194678" duration="976000" />
+      <workItem from="1724223210961" duration="10392000" />
+      <workItem from="1724768544470" duration="320000" />
+      <workItem from="1724768893506" duration="15656000" />
+      <workItem from="1725118735063" duration="1436000" />
+      <workItem from="1725195662934" duration="13818000" />
+      <workItem from="1725443600767" duration="4752000" />
+      <workItem from="1725473992910" duration="2591000" />
+      <workItem from="1725676599445" duration="3130000" />
+      <workItem from="1725721489133" duration="1866000" />
+      <workItem from="1725767731876" duration="14639000" />
+      <workItem from="1725947102138" duration="7089000" />
+      <workItem from="1726317344880" duration="11079000" />
+      <workItem from="1726472416419" duration="1881000" />
+      <workItem from="1726757227688" duration="540000" />
+      <workItem from="1726758087991" duration="10664000" />
+      <workItem from="1727098116788" duration="657000" />
+      <workItem from="1727607291020" duration="724000" />
+      <workItem from="1727627810634" duration="10103000" />
+      <workItem from="1728116362812" duration="1278000" />
+      <workItem from="1728200972411" duration="1042000" />
+      <workItem from="1728311216861" duration="7093000" />
+      <workItem from="1728455588516" duration="2702000" />
+      <workItem from="1729015110332" duration="615000" />
+      <workItem from="1729069730829" duration="11811000" />
+      <workItem from="1729484775076" duration="9415000" />
+      <workItem from="1729622686095" duration="95000" />
+      <workItem from="1729622806614" duration="32282000" />
+      <workItem from="1730272871669" duration="1937000" />
+      <workItem from="1730280422893" duration="1630000" />
+      <workItem from="1730286538141" duration="6212000" />
+      <workItem from="1730541167163" duration="30039000" />
+      <workItem from="1730887608822" duration="810000" />
+      <workItem from="1730888627789" duration="6235000" />
+      <workItem from="1731437291363" duration="332000" />
+      <workItem from="1731437956260" duration="1126000" />
+      <workItem from="1731439150585" duration="27000" />
+      <workItem from="1731439204995" duration="963000" />
+      <workItem from="1731482173721" duration="889000" />
+      <workItem from="1731483661099" duration="3898000" />
+      <workItem from="1731521587784" duration="2049000" />
+      <workItem from="1731597574186" duration="707000" />
+      <workItem from="1731608672803" duration="7544000" />
+      <workItem from="1731815485465" duration="67000" />
+      <workItem from="1731815576300" duration="4128000" />
+      <workItem from="1731913466073" duration="8628000" />
+      <workItem from="1732086090393" duration="420000" />
+      <workItem from="1732086623805" duration="556000" />
+      <workItem from="1732216043293" duration="314000" />
+      <workItem from="1732216401328" duration="1631000" />
+      <workItem from="1732348161581" duration="555000" />
+      <workItem from="1732352288880" duration="34000" />
+      <workItem from="1732352391556" duration="2000" />
+      <workItem from="1732352486590" duration="661000" />
+      <workItem from="1732381815042" duration="2316000" />
+      <workItem from="1732422879306" duration="3615000" />
+      <workItem from="1732435438732" duration="11000" />
+      <workItem from="1732508927249" duration="5852000" />
+      <workItem from="1732593402715" duration="19000" />
+      <workItem from="1732593585943" duration="103000" />
+      <workItem from="1732593709934" duration="87000" />
+      <workItem from="1732596881418" duration="905000" />
+      <workItem from="1732597827655" duration="127000" />
+      <workItem from="1732597981813" duration="3361000" />
+      <workItem from="1732603524509" duration="790000" />
+      <workItem from="1732604336108" duration="196000" />
+      <workItem from="1732604546442" duration="36000" />
+      <workItem from="1732634581381" duration="12695000" />
+      <workItem from="1732790680365" duration="16994000" />
+      <workItem from="1733024457397" duration="4337000" />
+      <workItem from="1733040323752" duration="7584000" />
+      <workItem from="1733251153254" duration="2001000" />
+      <workItem from="1733320953168" duration="177000" />
+      <workItem from="1733321268034" duration="7190000" />
+      <workItem from="1733551082822" duration="933000" />
+      <workItem from="1733754049752" duration="11606000" />
+      <workItem from="1733943559156" duration="1416000" />
+      <workItem from="1734169049868" duration="10792000" />
+      <workItem from="1734442064693" duration="11779000" />
+      <workItem from="1734619947104" duration="186000" />
+      <workItem from="1734872349796" duration="27343000" />
+      <workItem from="1735231997816" duration="16394000" />
+      <workItem from="1735811687759" duration="1134000" />
+      <workItem from="1736250105762" duration="5878000" />
+      <workItem from="1736421487556" duration="41000" />
+      <workItem from="1737206238522" duration="4165000" />
+      <workItem from="1737275744825" duration="24842000" />
+      <workItem from="1737637576034" duration="2202000" />
+      <workItem from="1738256649065" duration="722000" />
+      <workItem from="1738393385247" duration="2658000" />
+      <workItem from="1738778403940" duration="1512000" />
+      <workItem from="1738858880442" duration="3939000" />
+      <workItem from="1739260994971" duration="10742000" />
+      <workItem from="1739853375083" duration="2422000" />
+      <workItem from="1740068028282" duration="1261000" />
+      <workItem from="1740159200496" duration="619000" />
+      <workItem from="1740503043419" duration="218000" />
+      <workItem from="1740557049921" duration="697000" />
+      <workItem from="1740683782315" duration="5303000" />
+      <workItem from="1740814119383" duration="648000" />
+      <workItem from="1740814802051" duration="3395000" />
+      <workItem from="1740836098222" duration="21178000" />
+      <workItem from="1741627146379" duration="2138000" />
+      <workItem from="1741787617843" duration="21426000" />
+      <workItem from="1742049343384" duration="438000" />
+      <workItem from="1742049816630" duration="190000" />
+      <workItem from="1742050516220" duration="77000" />
+      <workItem from="1742050620296" duration="5029000" />
+      <workItem from="1743013826573" duration="6647000" />
+      <workItem from="1743100371579" duration="251000" />
+      <workItem from="1744012443912" duration="322000" />
+      <workItem from="1744124829712" duration="6400000" />
+      <workItem from="1744552210357" duration="10941000" />
+      <workItem from="1744820705495" duration="329000" />
+      <workItem from="1744821101117" duration="2263000" />
+      <workItem from="1744824004311" duration="5905000" />
+      <workItem from="1745084748062" duration="1188000" />
+      <workItem from="1745086653368" duration="1204000" />
+      <workItem from="1745327398970" duration="58000" />
+      <workItem from="1745327473673" duration="148000" />
+      <workItem from="1745327647505" duration="6287000" />
+      <workItem from="1745395958194" duration="544000" />
+      <workItem from="1745509921874" duration="386000" />
+      <workItem from="1745774903139" duration="137000" />
+      <workItem from="1745775083652" duration="1819000" />
+      <workItem from="1745917345520" duration="1148000" />
+      <workItem from="1745919149430" duration="1272000" />
+      <workItem from="1745921084878" duration="28000" />
+      <workItem from="1745921129646" duration="77000" />
+      <workItem from="1745921249684" duration="118000" />
+      <workItem from="1745921378948" duration="193000" />
+      <workItem from="1745921587680" duration="116000" />
+      <workItem from="1745921715521" duration="1115000" />
+      <workItem from="1745922892664" duration="873000" />
+      <workItem from="1745924454787" duration="108000" />
+      <workItem from="1745924593763" duration="47000" />
+      <workItem from="1745924672129" duration="23000" />
+      <workItem from="1745926374457" duration="1287000" />
+      <workItem from="1745929072023" duration="48000" />
+      <workItem from="1745929144990" duration="2476000" />
+      <workItem from="1745932045799" duration="102000" />
+      <workItem from="1745932162792" duration="34000" />
+      <workItem from="1745932217325" duration="194000" />
+      <workItem from="1746349632685" duration="352000" />
+      <workItem from="1746378141877" duration="7532000" />
+      <workItem from="1746901927526" duration="28000" />
+      <workItem from="1746958359578" duration="5210000" />
+      <workItem from="1747147583407" duration="8748000" />
+      <workItem from="1747208022933" duration="539000" />
+      <workItem from="1747210005877" duration="518000" />
+      <workItem from="1747210581275" duration="17000" />
+      <workItem from="1747210612094" duration="18000" />
+      <workItem from="1747210650759" duration="39000" />
+      <workItem from="1747210709309" duration="9000" />
+      <workItem from="1747210736111" duration="82000" />
+      <workItem from="1747210832632" duration="90000" />
+      <workItem from="1747210937084" duration="5590000" />
+      <workItem from="1747842518173" duration="450000" />
+      <workItem from="1747843008155" duration="732000" />
+      <workItem from="1748095791283" duration="2479000" />
+      <workItem from="1748107889807" duration="265000" />
+      <workItem from="1748108171095" duration="4151000" />
+      <workItem from="1748514203253" duration="1093000" />
+      <workItem from="1748704665103" duration="678000" />
+      <workItem from="1748705696848" duration="649000" />
+      <workItem from="1748780979706" duration="745000" />
+      <workItem from="1748784474589" duration="13483000" />
+      <workItem from="1749318046938" duration="881000" />
+      <workItem from="1749646684173" duration="943000" />
+      <workItem from="1749750134461" duration="1296000" />
+      <workItem from="1751959674435" duration="8804000" />
+      <workItem from="1752041415976" duration="103000" />
+      <workItem from="1752041543790" duration="3182000" />
+      <workItem from="1752325742578" duration="40000" />
+      <workItem from="1752670275047" duration="674000" />
+      <workItem from="1753166807596" duration="4374000" />
+      <workItem from="1753627602863" duration="1736000" />
+      <workItem from="1753773678880" duration="13016000" />
+      <workItem from="1754147453004" duration="1613000" />
+      <workItem from="1754229788995" duration="1397000" />
+      <workItem from="1754286899913" duration="8853000" />
+      <workItem from="1754396736768" duration="632000" />
+      <workItem from="1754493159783" duration="552000" />
+      <workItem from="1754493749016" duration="3566000" />
+      <workItem from="1754897631572" duration="6020000" />
+      <workItem from="1755530436468" duration="242000" />
+      <workItem from="1755531235961" duration="111000" />
+      <workItem from="1755531363924" duration="141000" />
+      <workItem from="1755531524328" duration="6570000" />
+      <workItem from="1756130567807" duration="11354000" />
+      <workItem from="1756905343303" duration="532000" />
+      <workItem from="1756905975152" duration="601000" />
+      <workItem from="1757139657695" duration="2786000" />
+      <workItem from="1757156636259" duration="1653000" />
+      <workItem from="1757173653865" duration="6699000" />
+      <workItem from="1757330546482" duration="6021000" />
+      <workItem from="1757422097891" duration="4510000" />
+      <workItem from="1757741190335" duration="1979000" />
+      <workItem from="1757838254823" duration="28058000" />
+      <workItem from="1758094283885" duration="22717000" />
+      <workItem from="1758731338786" duration="14001000" />
+      <workItem from="1759150625904" duration="5435000" />
+      <workItem from="1759558709730" duration="2036000" />
+      <workItem from="1759680169932" duration="611000" />
+      <workItem from="1759721955790" duration="2338000" />
+      <workItem from="1759842058130" duration="535000" />
+      <workItem from="1759908115548" duration="695000" />
+      <workItem from="1759910272539" duration="6556000" />
+      <workItem from="1760341750405" duration="12411000" />
+      <workItem from="1761456098583" duration="294000" />
+      <workItem from="1761460313671" duration="409000" />
+      <workItem from="1762060295548" duration="1321000" />
+      <workItem from="1762066290477" duration="4516000" />
+      <workItem from="1762618761635" duration="267000" />
+      <workItem from="1762666948500" duration="223000" />
+      <workItem from="1762667218548" duration="342000" />
+      <workItem from="1762667579523" duration="23000" />
+      <workItem from="1762667621172" duration="235000" />
+      <workItem from="1762667885618" duration="29000" />
+      <workItem from="1762667934020" duration="14132000" />
+      <workItem from="1763810953036" duration="2061000" />
+      <workItem from="1763830523941" duration="6787000" />
+      <workItem from="1764252193470" duration="280000" />
+      <workItem from="1765107807787" duration="928000" />
+      <workItem from="1765109066609" duration="1693000" />
+      <workItem from="1765165338722" duration="2488000" />
+      <workItem from="1765187886598" duration="705000" />
+      <workItem from="1765190495182" duration="96000" />
+      <workItem from="1765190602750" duration="1711000" />
+      <workItem from="1765204428666" duration="7246000" />
+      <workItem from="1765891878605" duration="978000" />
+      <workItem from="1766673175829" duration="2452000" />
+      <workItem from="1766919245055" duration="389000" />
+      <workItem from="1766919681851" duration="4979000" />
+      <workItem from="1766934280793" duration="568000" />
+      <workItem from="1766934862200" duration="41000" />
+      <workItem from="1766934917080" duration="86000" />
+      <workItem from="1766935019542" duration="109000" />
+      <workItem from="1766935148873" duration="76000" />
+      <workItem from="1767705379775" duration="100000" />
+      <workItem from="1767705496275" duration="4174000" />
+      <workItem from="1767773213948" duration="899000" />
+      <workItem from="1769864256528" duration="377000" />
+      <workItem from="1769932990446" duration="4570000" />
+      <workItem from="1770709303095" duration="450000" />
+      <workItem from="1770712144265" duration="1196000" />
+      <workItem from="1770713391631" duration="66000" />
+      <workItem from="1770713558098" duration="3960000" />
+    </task>
+    <task id="LOCAL-00001" summary="initial">
+      <option name="closed" value="true" />
+      <created>1710418960627</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1710418960627</updated>
+    </task>
+    <task id="LOCAL-00002" summary="update">
+      <option name="closed" value="true" />
+      <created>1710513276379</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1710513276379</updated>
+    </task>
+    <task id="LOCAL-00003" summary="added workflows">
+      <option name="closed" value="true" />
+      <created>1710589001861</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1710589001861</updated>
+    </task>
+    <task id="LOCAL-00004" summary="fix github pages job">
+      <option name="closed" value="true" />
+      <created>1710589147298</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1710589147298</updated>
+    </task>
+    <task id="LOCAL-00005" summary="update">
+      <option name="closed" value="true" />
+      <created>1710589485449</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1710589485449</updated>
+    </task>
+    <task id="LOCAL-00006" summary="update">
+      <option name="closed" value="true" />
+      <created>1710590027611</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1710590027611</updated>
+    </task>
+    <task id="LOCAL-00007" summary="update">
+      <option name="closed" value="true" />
+      <created>1711549475787</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1711549475787</updated>
+    </task>
+    <task id="LOCAL-00008" summary="update">
+      <option name="closed" value="true" />
+      <created>1711549908402</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1711549908402</updated>
+    </task>
+    <task id="LOCAL-00009" summary="update">
+      <option name="closed" value="true" />
+      <created>1711550288095</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1711550288095</updated>
+    </task>
+    <task id="LOCAL-00010" summary="update">
+      <option name="closed" value="true" />
+      <created>1711550436166</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1711550436166</updated>
+    </task>
+    <task id="LOCAL-00011" summary="remove monaco-editor">
+      <option name="closed" value="true" />
+      <created>1711557197452</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1711557197452</updated>
+    </task>
+    <task id="LOCAL-00012" summary="remove monaco-editor">
+      <option name="closed" value="true" />
+      <created>1711557638507</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1711557638507</updated>
+    </task>
+    <task id="LOCAL-00013" summary="publish github pages">
+      <option name="closed" value="true" />
+      <created>1711558279348</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1711558279348</updated>
+    </task>
+    <task id="LOCAL-00014" summary="publish github pages">
+      <option name="closed" value="true" />
+      <created>1711558634212</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1711558634212</updated>
+    </task>
+    <task id="LOCAL-00015" summary="publish github pages">
+      <option name="closed" value="true" />
+      <created>1711558667281</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1711558667281</updated>
+    </task>
+    <task id="LOCAL-00016" summary="publish github pages">
+      <option name="closed" value="true" />
+      <created>1711559236225</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1711559236225</updated>
+    </task>
+    <task id="LOCAL-00017" summary="publish github pages">
+      <option name="closed" value="true" />
+      <created>1711559673652</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1711559673652</updated>
+    </task>
+    <task id="LOCAL-00018" summary="publish github pages">
+      <option name="closed" value="true" />
+      <created>1711559939226</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1711559939226</updated>
+    </task>
+    <task id="LOCAL-00019" summary="publish github pages">
+      <option name="closed" value="true" />
+      <created>1713178866356</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1713178866356</updated>
+    </task>
+    <task id="LOCAL-00020" summary="publish github pages">
+      <option name="closed" value="true" />
+      <created>1716824115742</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1716824115742</updated>
+    </task>
+    <task id="LOCAL-00021" summary="update angular version">
+      <option name="closed" value="true" />
+      <created>1716877452550</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1716877452550</updated>
+    </task>
+    <task id="LOCAL-00022" summary="update angular version">
+      <option name="closed" value="true" />
+      <created>1716893114617</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1716893114617</updated>
+    </task>
+    <task id="LOCAL-00023" summary="update">
+      <option name="closed" value="true" />
+      <created>1716982962589</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1716982962589</updated>
+    </task>
+    <task id="LOCAL-00024" summary="update">
+      <option name="closed" value="true" />
+      <created>1721913419685</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1721913419685</updated>
+    </task>
+    <task id="LOCAL-00025" summary="update">
+      <option name="closed" value="true" />
+      <created>1731484845791</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1731484845791</updated>
+    </task>
+    <task id="LOCAL-00026" summary="update">
+      <option name="closed" value="true" />
+      <created>1732008454932</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1732008454932</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Fixed the encoding to UTF-8 in `src/main.ts`, added a log statement.">
+      <option name="closed" value="true" />
+      <created>1747158279920</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1747158279920</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Fixed the encoding to UTF-8 in `src/main.ts`, added a log statement.">
+      <option name="closed" value="true" />
+      <created>1753284677960</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1753284677960</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Fixed the encoding to UTF-8 in `src/main.ts`, added a log statement.">
+      <option name="closed" value="true" />
+      <created>1762782517136</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1762782517136</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
+    <servers />
+  </component>
+  <component name="TerminalProjectNonSharedOptionsProvider">
+    <envs>
+      <env key="CHUB_SHOW_UPDATE_PANEL" value="1" />
+    </envs>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="Jenkinsfile" />
+    <option featureType="com.intellij.fileTypeFactory" implementationName="angular.json" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="initial" />
+    <MESSAGE value="added workflows" />
+    <MESSAGE value="fix github pages job" />
+    <MESSAGE value="remove monaco-editor" />
+    <MESSAGE value="publish github pages" />
+    <MESSAGE value="update angular version" />
+    <MESSAGE value="update" />
+    <MESSAGE value="Fixed the encoding to UTF-8 in `src/main.ts`, added a log statement." />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed the encoding to UTF-8 in `src/main.ts`, added a log statement." />
+  </component>
+  <component name="WfRunsListSearchHistory">{
+  &quot;history&quot;: [
+    {
+      &quot;branch&quot;: &quot;main&quot;,
+      &quot;currentBranchFilter&quot;: true
+    },
+    {
+      &quot;currentBranchFilter&quot;: true
+    },
+    {
+      &quot;branch&quot;: &quot;main&quot;,
+      &quot;currentBranchFilter&quot;: true
+    },
+    {
+      &quot;branch&quot;: &quot;main&quot;,
+      &quot;currentBranchFilter&quot;: true
+    },
+    {
+      &quot;branch&quot;: &quot;main&quot;,
+      &quot;currentBranchFilter&quot;: true
+    },
+    {
+      &quot;branch&quot;: &quot;main&quot;,
+      &quot;currentBranchFilter&quot;: true
+    },
+    {
+      &quot;branch&quot;: &quot;main&quot;,
+      &quot;currentBranchFilter&quot;: true
+    },
+    {
+      &quot;branch&quot;: &quot;main&quot;,
+      &quot;currentBranchFilter&quot;: true
+    },
+    {
+      &quot;branch&quot;: &quot;main&quot;,
+      &quot;currentBranchFilter&quot;: true
+    },
+    {
+      &quot;branch&quot;: &quot;main&quot;,
+      &quot;currentBranchFilter&quot;: true
+    },
+    {
+      &quot;branch&quot;: &quot;main&quot;,
+      &quot;currentBranchFilter&quot;: true
+    },
+    {
+      &quot;branch&quot;: &quot;main&quot;,
+      &quot;currentBranchFilter&quot;: true
+    },
+    {
+      &quot;branch&quot;: &quot;main&quot;,
+      &quot;currentBranchFilter&quot;: true
+    },
+    {
+      &quot;branch&quot;: &quot;main&quot;,
+      &quot;currentBranchFilter&quot;: true
+    },
+    {
+      &quot;branch&quot;: &quot;main&quot;,
+      &quot;currentBranchFilter&quot;: true
+    },
+    {
+      &quot;branch&quot;: &quot;main&quot;,
+      &quot;currentBranchFilter&quot;: true
+    },
+    {
+      &quot;branch&quot;: &quot;main&quot;,
+      &quot;currentBranchFilter&quot;: true
+    },
+    {
+      &quot;branch&quot;: &quot;main&quot;,
+      &quot;currentBranchFilter&quot;: true
+    },
+    {
+      &quot;branch&quot;: &quot;main&quot;,
+      &quot;currentBranchFilter&quot;: true
+    },
+    {
+      &quot;branch&quot;: &quot;main&quot;,
+      &quot;currentBranchFilter&quot;: true
+    },
+    {
+      &quot;branch&quot;: &quot;main&quot;,
+      &quot;currentBranchFilter&quot;: true
+    },
+    {
+      &quot;branch&quot;: &quot;main&quot;,
+      &quot;currentBranchFilter&quot;: true
+    },
+    {
+      &quot;branch&quot;: &quot;main&quot;,
+      &quot;currentBranchFilter&quot;: true
+    },
+    {
+      &quot;branch&quot;: &quot;main&quot;,
+      &quot;currentBranchFilter&quot;: true
+    },
+    {
+      &quot;branch&quot;: &quot;main&quot;,
+      &quot;currentBranchFilter&quot;: true
+    },
+    {
+      &quot;branch&quot;: &quot;main&quot;,
+      &quot;currentBranchFilter&quot;: true
+    },
+    {
+      &quot;branch&quot;: &quot;main&quot;,
+      &quot;currentBranchFilter&quot;: true
+    },
+    {
+      &quot;branch&quot;: &quot;main&quot;,
+      &quot;currentBranchFilter&quot;: true
+    },
+    {
+      &quot;branch&quot;: &quot;main&quot;,
+      &quot;currentBranchFilter&quot;: true
+    },
+    {
+      &quot;branch&quot;: &quot;main&quot;,
+      &quot;currentBranchFilter&quot;: true
+    },
+    {
+      &quot;branch&quot;: &quot;main&quot;,
+      &quot;currentBranchFilter&quot;: true
+    },
+    {
+      &quot;branch&quot;: &quot;main&quot;,
+      &quot;currentBranchFilter&quot;: true
+    },
+    {
+      &quot;branch&quot;: &quot;main&quot;,
+      &quot;currentBranchFilter&quot;: true
+    },
+    {
+      &quot;branch&quot;: &quot;main&quot;,
+      &quot;currentBranchFilter&quot;: true
+    },
+    {
+      &quot;branch&quot;: &quot;main&quot;,
+      &quot;currentBranchFilter&quot;: true
+    }
+  ],
+  &quot;lastFilter&quot;: {
+    &quot;branch&quot;: &quot;main&quot;,
+    &quot;currentBranchFilter&quot;: true
+  }
+}</component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+  <component name="com.gk646.codestats.settings.Save">
+    <option name="commitTimePoints">
+      <list>
+        <TimePoint>
+          <option name="timestamp" value="1710589005371" />
+          <option name="linesCode" value="202465" />
+          <option name="totalLines" value="272999" />
+          <option name="info" value="added workflows" />
+        </TimePoint>
+        <TimePoint>
+          <option name="timestamp" value="1710589147442" />
+          <option name="linesCode" value="202465" />
+          <option name="totalLines" value="272994" />
+          <option name="info" value="fix github pages job" />
+        </TimePoint>
+        <TimePoint>
+          <option name="timestamp" value="1710589485651" />
+          <option name="linesCode" value="189739" />
+          <option name="totalLines" value="260270" />
+          <option name="info" value="update" />
+        </TimePoint>
+        <TimePoint>
+          <option name="timestamp" value="1710590027762" />
+          <option name="linesCode" value="189739" />
+          <option name="totalLines" value="260270" />
+          <option name="info" value="update" />
+        </TimePoint>
+        <TimePoint>
+          <option name="timestamp" value="1711549476124" />
+          <option name="linesCode" value="232529" />
+          <option name="totalLines" value="304929" />
+          <option name="info" value="update" />
+        </TimePoint>
+        <TimePoint>
+          <option name="timestamp" value="1711549908525" />
+          <option name="linesCode" value="232530" />
+          <option name="totalLines" value="304932" />
+          <option name="info" value="update" />
+        </TimePoint>
+        <TimePoint>
+          <option name="timestamp" value="1711550288225" />
+          <option name="linesCode" value="232529" />
+          <option name="totalLines" value="304934" />
+          <option name="info" value="update" />
+        </TimePoint>
+        <TimePoint>
+          <option name="timestamp" value="1711550436317" />
+          <option name="linesCode" value="232531" />
+          <option name="totalLines" value="304937" />
+          <option name="info" value="update" />
+        </TimePoint>
+        <TimePoint>
+          <option name="timestamp" value="1711557197572" />
+          <option name="linesCode" value="83722" />
+          <option name="totalLines" value="95685" />
+          <option name="info" value="remove monaco-editor" />
+        </TimePoint>
+        <TimePoint>
+          <option name="timestamp" value="1711557638618" />
+          <option name="linesCode" value="153382" />
+          <option name="totalLines" value="176784" />
+          <option name="info" value="remove monaco-editor" />
+        </TimePoint>
+        <TimePoint>
+          <option name="timestamp" value="1711558279517" />
+          <option name="linesCode" value="153382" />
+          <option name="totalLines" value="176783" />
+          <option name="info" value="publish github pages" />
+        </TimePoint>
+        <TimePoint>
+          <option name="timestamp" value="1711558634302" />
+          <option name="linesCode" value="153382" />
+          <option name="totalLines" value="176783" />
+          <option name="info" value="publish github pages" />
+        </TimePoint>
+        <TimePoint>
+          <option name="timestamp" value="1711558667367" />
+          <option name="linesCode" value="153382" />
+          <option name="totalLines" value="176783" />
+          <option name="info" value="publish github pages" />
+        </TimePoint>
+        <TimePoint>
+          <option name="timestamp" value="1711559236330" />
+          <option name="linesCode" value="153382" />
+          <option name="totalLines" value="176783" />
+          <option name="info" value="publish github pages" />
+        </TimePoint>
+        <TimePoint>
+          <option name="timestamp" value="1711559673731" />
+          <option name="linesCode" value="153382" />
+          <option name="totalLines" value="176783" />
+          <option name="info" value="publish github pages" />
+        </TimePoint>
+        <TimePoint>
+          <option name="timestamp" value="1711559939341" />
+          <option name="linesCode" value="153382" />
+          <option name="totalLines" value="176783" />
+          <option name="info" value="publish github pages" />
+        </TimePoint>
+        <TimePoint>
+          <option name="timestamp" value="1713178868276" />
+          <option name="linesCode" value="153392" />
+          <option name="totalLines" value="176775" />
+          <option name="info" value="publish github pages" />
+        </TimePoint>
+        <TimePoint>
+          <option name="timestamp" value="1716824117704" />
+          <option name="linesCode" value="153059" />
+          <option name="totalLines" value="176954" />
+          <option name="info" value="publish github pages" />
+        </TimePoint>
+        <TimePoint>
+          <option name="timestamp" value="1716877452862" />
+          <option name="linesCode" value="85739" />
+          <option name="totalLines" value="98982" />
+          <option name="info" value="update angular version" />
+        </TimePoint>
+        <TimePoint>
+          <option name="timestamp" value="1716893116391" />
+          <option name="linesCode" value="85739" />
+          <option name="totalLines" value="98982" />
+          <option name="info" value="update angular version" />
+        </TimePoint>
+        <TimePoint>
+          <option name="timestamp" value="1716982963876" />
+          <option name="linesCode" value="85756" />
+          <option name="totalLines" value="98998" />
+          <option name="info" value="update" />
+        </TimePoint>
+        <TimePoint>
+          <option name="timestamp" value="1721913420581" />
+          <option name="linesCode" value="226902" />
+          <option name="totalLines" value="266424" />
+          <option name="info" value="update" />
+        </TimePoint>
+      </list>
+    </option>
+    <option name="genericTimePoints">
+      <list>
+        <TimePoint>
+          <option name="timestamp" value="1710590027762" />
+          <option name="linesCode" value="189739" />
+          <option name="totalLines" value="260270" />
+          <option name="info" value="Mar 16, 2024" />
+        </TimePoint>
+        <TimePoint>
+          <option name="timestamp" value="1711559939341" />
+          <option name="linesCode" value="153382" />
+          <option name="totalLines" value="176783" />
+          <option name="info" value="Mar 27, 2024" />
+        </TimePoint>
+        <TimePoint>
+          <option name="timestamp" value="1713178868276" />
+          <option name="linesCode" value="153392" />
+          <option name="totalLines" value="176775" />
+          <option name="info" value="Apr 15, 2024" />
+        </TimePoint>
+        <TimePoint>
+          <option name="timestamp" value="1716824117704" />
+          <option name="linesCode" value="153059" />
+          <option name="totalLines" value="176954" />
+          <option name="info" value="May 27, 2024" />
+        </TimePoint>
+        <TimePoint>
+          <option name="timestamp" value="1716877478481" />
+          <option name="linesCode" value="85739" />
+          <option name="totalLines" value="98982" />
+          <option name="info" value="May 28, 2024" />
+        </TimePoint>
+        <TimePoint>
+          <option name="timestamp" value="1716893116391" />
+          <option name="linesCode" value="85739" />
+          <option name="totalLines" value="98982" />
+          <option name="info" value="May 28, 2024" />
+        </TimePoint>
+        <TimePoint>
+          <option name="timestamp" value="1716982963876" />
+          <option name="linesCode" value="85756" />
+          <option name="totalLines" value="98998" />
+          <option name="info" value="May 29, 2024" />
+        </TimePoint>
+        <TimePoint>
+          <option name="timestamp" value="1721913420581" />
+          <option name="linesCode" value="226902" />
+          <option name="totalLines" value="266424" />
+          <option name="info" value="Jul 25, 2024" />
+        </TimePoint>
+      </list>
+    </option>
+  </component>
+</project>
